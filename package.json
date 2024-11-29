@@ -1,0 +1,28 @@
+{
+  "name": "express-clean-architecture",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "bcrypt": "^5.1.1",
+    "bun": "^1.1.37",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "hono": "^4.6.12",
+    "jsonwebtoken": "^9.0.2",
+    "lru-cache": "^11.0.2",
+    "prisma": "^5.22.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "axios": "^1.7.8"
+  }
+}
